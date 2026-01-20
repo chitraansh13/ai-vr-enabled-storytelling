@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh" at "2026-01-20T14:18:14.0255726Z"
 Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16011 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh" at "2026-01-20T15:04:45.9977182Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-20T14:18:14Z
+Date: 2026-01-20T15:04:45Z
 
 COMMAND LINE ARGUMENTS:
 E:\Unity\Editor\6000.3.3f1\Editor\Unity.exe
@@ -13,11 +13,13 @@ E:\Unity\Editor\6000.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker4
 -projectPath
-E:/Unity/Unity Projects/StorytellingVR
+G:/Users/chitr/Desktop/Capstone/StorytellingVR
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-59667
+49835
+-licensingIpc
+LicenseClient-Chitraansh
 -job-worker-count
 9
 -background-job-worker-count
@@ -26,8 +28,8 @@ Logs/AssetImportWorker4.log
 1
 -name
 AssetImport
-Successfully changed project path to: E:/Unity/Unity Projects/StorytellingVR
-E:/Unity/Unity Projects/StorytellingVR
+Successfully changed project path to: G:/Users/chitr/Desktop/Capstone/StorytellingVR
+G:/Users/chitr/Desktop/Capstone/StorytellingVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -63,18 +65,18 @@ E:/Unity/Unity Projects/StorytellingVR
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [26816]  Target information:
+Player connection [31500]  Target information:
 
-Player connection [26816]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 72966053 [EditorId] 72966053 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31500]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1095581835 [EditorId] 1095581835 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26816]  * "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 72966053 [EditorId] 72966053 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31500]  * "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 1095581835 [EditorId] 1095581835 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26816]  * "[IP] 192.168.199.1 [Port] 0 [Flags] 2 [Guid] 72966053 [EditorId] 72966053 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31500]  * "[IP] 192.168.199.1 [Port] 0 [Flags] 2 [Guid] 1095581835 [EditorId] 1095581835 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26816]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 72966053 [EditorId] 72966053 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31500]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1095581835 [EditorId] 1095581835 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26816] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31500] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,11 +88,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
 [Subsystems] Discovering subsystems at path E:/Unity/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity/Unity Projects/StorytellingVR/Assets
+[Subsystems] Discovering subsystems at path G:/Users/chitr/Desktop/Capstone/StorytellingVR/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -102,21 +104,19 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Editor/6000.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              a3a6eaac486e4d1e8445dad69c19009a
+  Session Id:              ca2b67b6335546ab93eed9bffb9c061b
   Correlation Id:          d01085e739ee4233c8b37302d925872b
-  External correlation Id: 8639531610772566380
+  External correlation Id: 6934423518106494473
   Machine Id:              LNOBb4xyY36q7bW8iIilfPZ8vTY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Chitraansh" (connect: 0.00s, validation: 0.00s, handshake: 1.32s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh-notifications" at "2026-01-20T14:18:15.350744Z"
-[Licensing::Module] Licensing Background thread has ended after 1.33s
-[Licensing::Module] Licensing is initialized (took 0.24s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Chitraansh" (connect: 0.00s, validation: 0.00s, handshake: 1.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh-notifications" at "2026-01-20T15:04:47.0168926Z"
+[Licensing::Module] Licensing Background thread has ended after 1.02s
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 13469311752238-UnityPersXXXX
@@ -127,44 +127,44 @@ Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/Playbac
 Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.254630 seconds.
-- Loaded All Assemblies, in  0.772 seconds
+Registered in 0.012696 seconds.
+- Loaded All Assemblies, in  0.452 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 334 ms
+Android Extension - Scanning For ADB Devices 292 ms
 Native extension for WindowsStandalone target not found
 Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.812 seconds
-Domain Reload Profiling: 1583ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1184ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (299ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (173ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (205ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (159ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (812ms)
+	FinalizeReload (733ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (763ms)
+		SetupLoadedEditorAssemblies (689ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (435ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			InitializePlatformSupportModulesInManaged (386ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -174,8 +174,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -186,52 +186,2413 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1589ms
+- Finished resetting the current domain, in  0.900 seconds
+Domain Reload Profiling: 1806ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6184 unused Assets / (4.5 MB). Loaded Objects now: 6983.
+Memory consumption went from 145.8 MB to 141.3 MB.
+Total: 8.824500 ms (FindLiveObjects: 1.163100 ms CreateObjectMapping: 0.489300 ms MarkObjects: 4.942700 ms  DeleteObjects: 2.228000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12114.059764 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest
+  artifactKey: Guid(4c118b67377bbc440a97f29cc759e0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest using Guid(4c118b67377bbc440a97f29cc759e0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3264273db5b090487db1eabbe2e3a62e') in 0.0066352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911260 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest
+  artifactKey: Guid(4c118b67377bbc440a97f29cc759e0bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest using Guid(4c118b67377bbc440a97f29cc759e0bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9668bd62849c1c2b32477464a75545ca') in 0.0493036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.248994 seconds.
+  path: Assets/Prefabs/NPCs/source
+  artifactKey: Guid(63d4042313532a24fa1fafddda8b89d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/source using Guid(63d4042313532a24fa1fafddda8b89d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ab09dcdff09c243aec9c3da8926f153') in 0.0005651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.908287 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/source
+  artifactKey: Guid(63d4042313532a24fa1fafddda8b89d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/source using Guid(63d4042313532a24fa1fafddda8b89d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c02ef24a6db00148e1dae36de304f508') in 0.0165107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.736073 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures
+  artifactKey: Guid(373019f949120244aa788dfbd4538502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures using Guid(373019f949120244aa788dfbd4538502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac15a3ee76ec66b3a6436f9ba454f1e0') in 0.0175317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarEyes_Normal_512.jpeg
+  artifactKey: Guid(f7efb7639313c554a841fe7065c776a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarEyes_Normal_512.jpeg using Guid(f7efb7639313c554a841fe7065c776a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80f2528dcb6386b33ab899fdd67a474b') in 0.0956619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/saree_Aramazd_Color_1Ka.png
+  artifactKey: Guid(2a97bb936f45d5c49a78560b968809de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/saree_Aramazd_Color_1Ka.png using Guid(2a97bb936f45d5c49a78560b968809de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4853a099721b9046e2d3df318a6c98d') in 0.0224365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1460ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (4.1 MB). Loaded Objects now: 7001.
+Memory consumption went from 150.6 MB to 146.6 MB.
+Total: 8.057900 ms (FindLiveObjects: 0.540800 ms CreateObjectMapping: 0.539800 ms MarkObjects: 4.777700 ms  DeleteObjects: 2.103700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (4.3 MB). Loaded Objects now: 7004.
+Memory consumption went from 150.4 MB to 146.1 MB.
+Total: 8.663100 ms (FindLiveObjects: 0.604400 ms CreateObjectMapping: 0.560200 ms MarkObjects: 5.160800 ms  DeleteObjects: 2.336100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.686 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (4.3 MB). Loaded Objects now: 7007.
+Memory consumption went from 150.5 MB to 146.2 MB.
+Total: 9.747100 ms (FindLiveObjects: 0.612100 ms CreateObjectMapping: 0.716300 ms MarkObjects: 5.966600 ms  DeleteObjects: 2.450500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.689 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (4.1 MB). Loaded Objects now: 7010.
+Memory consumption went from 150.5 MB to 146.4 MB.
+Total: 8.834500 ms (FindLiveObjects: 0.541400 ms CreateObjectMapping: 0.600800 ms MarkObjects: 5.466100 ms  DeleteObjects: 2.225000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (742ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (4.0 MB). Loaded Objects now: 7013.
+Memory consumption went from 150.6 MB to 146.6 MB.
+Total: 8.632900 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.533300 ms MarkObjects: 5.468200 ms  DeleteObjects: 2.098400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (4.3 MB). Loaded Objects now: 7016.
+Memory consumption went from 150.6 MB to 146.3 MB.
+Total: 8.539500 ms (FindLiveObjects: 0.774600 ms CreateObjectMapping: 0.514200 ms MarkObjects: 5.115800 ms  DeleteObjects: 2.132300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 374.792466 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/source/Catwalk Idle.fbx
+  artifactKey: Guid(f3123ffd2e29908409e2a1a59711b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/source/Catwalk Idle.fbx using Guid(f3123ffd2e29908409e2a1a59711b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6ff4e3f65a4ca53e3446da905a0e7d0') in 0.8725477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.406860 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/source/Catwalk Idle.fbx
+  artifactKey: Guid(f3123ffd2e29908409e2a1a59711b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/source/Catwalk Idle.fbx using Guid(f3123ffd2e29908409e2a1a59711b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aa0b2e5660de7ea55af0af9ae9c1ef5') in 0.3280039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.333027 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarTeethLower.mat
+  artifactKey: Guid(0e04a810dbe49dc4d846e44a0e0f3710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarTeethLower.mat using Guid(0e04a810dbe49dc4d846e44a0e0f3710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c104c3c327f723a8d568a521bb98e33c') in 0.0812367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/haircut.mat
+  artifactKey: Guid(04c00c51579daed4d96eadb4837d47f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/haircut.mat using Guid(04c00c51579daed4d96eadb4837d47f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1898a45861459bce9a594c18241eebe') in 0.0217844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBody.mat
+  artifactKey: Guid(85c1a87bbe8d7704bb32920db1456cb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBody.mat using Guid(85c1a87bbe8d7704bb32920db1456cb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8254e3235ee8fd9d69fab4861772728f') in 0.0220354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarRightEyeball.mat
+  artifactKey: Guid(0e24f6696883ab64196a27112a0a8477) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarRightEyeball.mat using Guid(0e24f6696883ab64196a27112a0a8477) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccfb406dde0cadf6b538afa4e97dd5e9') in 0.0170697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarRightCornea.mat
+  artifactKey: Guid(b6d68d9ca4760394b85f6033239296c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarRightCornea.mat using Guid(b6d68d9ca4760394b85f6033239296c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a91d204204b450ee7009e172c22b047') in 0.0203947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarTeethUpper.mat
+  artifactKey: Guid(456eeb561efd81248ac0c94cfb8ea72d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarTeethUpper.mat using Guid(456eeb561efd81248ac0c94cfb8ea72d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14acd72769bbdc40ecd3d4c1e962b8a6') in 0.0172073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/outfit.mat
+  artifactKey: Guid(f1893c190aabc8d4eb6ad7788117bbd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/outfit.mat using Guid(f1893c190aabc8d4eb6ad7788117bbd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee33a5b58103ae651ef5951d838d7431') in 0.0174244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarHead.mat
+  artifactKey: Guid(ff3157d72600adf44baf329cffbc756e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarHead.mat using Guid(ff3157d72600adf44baf329cffbc756e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6a49f28d6b71c1c814a2b9aeed2c298') in 0.0186582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.406882 seconds.
+  path: Assets/Prefabs/NPCs/NPC_Material.mat
+  artifactKey: Guid(a3c7365dc7ea11e4b8a4a79ee3d722dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/NPC_Material.mat using Guid(a3c7365dc7ea11e4b8a4a79ee3d722dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a495b88228948ea82075cef8c37c837') in 0.0189707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.821831 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures
+  artifactKey: Guid(373019f949120244aa788dfbd4538502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures using Guid(373019f949120244aa788dfbd4538502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '570a14d4006b24d9ec57f6469bbcb801') in 0.0006461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.881565 seconds.
+  path: Assets/Materials/IndianWomanTest
+  artifactKey: Guid(30d34a088ee7e704cb9eec34cf91a1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IndianWomanTest using Guid(30d34a088ee7e704cb9eec34cf91a1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11f315019a0a5b22e2ab04935875edf6') in 0.0009573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928706 seconds.
+  path: Assets/Materials/IndianWomanTest
+  artifactKey: Guid(30d34a088ee7e704cb9eec34cf91a1f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest using Guid(30d34a088ee7e704cb9eec34cf91a1f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a51f897fddd2242580251f84ef64f53f') in 0.017487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.763263 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Body
+  artifactKey: Guid(81ac9670199bfdb46bd4afec6e53def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IndianWomanTest/Mat_Body using Guid(81ac9670199bfdb46bd4afec6e53def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6d398a2145f6244a9347e4756c1ad1b') in 0.000815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.927504 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Body
+  artifactKey: Guid(81ac9670199bfdb46bd4afec6e53def9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Body using Guid(81ac9670199bfdb46bd4afec6e53def9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccf2addf9a118d24c409b4c58a1ecd91') in 0.0151579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.190486 seconds.
+  path: Assets/Materials/IndianWomanTest/New Material.mat
+  artifactKey: Guid(be836bc7806e4134e9c3c56446fed6a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/New Material.mat using Guid(be836bc7806e4134e9c3c56446fed6a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3c7e706a9cc85c3cc4572aea6dbb0d2') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.817065 seconds.
+  path: Assets/Materials/IndianWomanTest/New Material 1.mat
+  artifactKey: Guid(283b3cab071e9bb428eadbd871ed1b3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/New Material 1.mat using Guid(283b3cab071e9bb428eadbd871ed1b3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1ade98bb9da9a1cc0a225e59ea70502') in 0.0207228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/IndianWomanTest/New Material 5.mat
+  artifactKey: Guid(1228017e8b23f8941a8ed3693eff2563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/New Material 5.mat using Guid(1228017e8b23f8941a8ed3693eff2563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76b561f1d823fca7e50a1cb1e425e01b') in 0.019201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/IndianWomanTest/New Material 3.mat
+  artifactKey: Guid(b66f02e1acc84504999d6a667c93cbee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/New Material 3.mat using Guid(b66f02e1acc84504999d6a667c93cbee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37b378bf081bb4824e02261a95b4b450') in 0.0209609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.525479 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Body.mat
+  artifactKey: Guid(be836bc7806e4134e9c3c56446fed6a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Body.mat using Guid(be836bc7806e4134e9c3c56446fed6a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37babcffdf72e3a9976b0fa9cfee90e0') in 0.0175044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.717157 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Head.mat
+  artifactKey: Guid(283b3cab071e9bb428eadbd871ed1b3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Head.mat using Guid(283b3cab071e9bb428eadbd871ed1b3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2925b40b40440ecd7b85db09272fd2d') in 0.0166531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.039284 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Eyes.mat
+  artifactKey: Guid(b267e5119e2c5a04cb317cd49e447dc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Eyes.mat using Guid(b267e5119e2c5a04cb317cd49e447dc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba63c4ca1e5aa1d011bf2195e0aa1bb4') in 0.0161989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.082251 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Hair.mat
+  artifactKey: Guid(b66f02e1acc84504999d6a667c93cbee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Hair.mat using Guid(b66f02e1acc84504999d6a667c93cbee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e0732247d61207d73e262064e14e7b9') in 0.0173095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.678449 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Teeth.mat
+  artifactKey: Guid(dcff03b00a2f42347a8c5a736a5c1f77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Teeth.mat using Guid(dcff03b00a2f42347a8c5a736a5c1f77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9893d55617f047dcc088ce892be226d6') in 0.0193475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.502766 seconds.
+  path: Assets/Materials/IndianWomanTest/Mat_Outfit.mat
+  artifactKey: Guid(1228017e8b23f8941a8ed3693eff2563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/Mat_Outfit.mat using Guid(1228017e8b23f8941a8ed3693eff2563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22f779ee7e5f36fc13a76f844e48719d') in 0.0173723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.690474 seconds.
+  path: Assets/Materials/IndianWomanTest/textures
+  artifactKey: Guid(373019f949120244aa788dfbd4538502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures using Guid(373019f949120244aa788dfbd4538502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72ba44de23f1929628970254ef6dc7e1') in 0.018541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarEyes_Normal_512.jpeg
+  artifactKey: Guid(f7efb7639313c554a841fe7065c776a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarEyes_Normal_512.jpeg using Guid(f7efb7639313c554a841fe7065c776a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8785efa16535b2e95a16df913bd129a8') in 0.0641227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarEyes_Color_512.jpeg
+  artifactKey: Guid(8b00c5b3ad72db0419855a1a78c16219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarEyes_Color_512.jpeg using Guid(8b00c5b3ad72db0419855a1a78c16219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56c908a3c4434187c83bf835081b117a') in 0.0654938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarRightCornea_Color_512.jpeg
+  artifactKey: Guid(898d1523e33fd7846b67fa3dd34c7c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarRightCornea_Color_512.jpeg using Guid(898d1523e33fd7846b67fa3dd34c7c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd75fcf78bca97c1973e23602311c3daa') in 0.0217158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/haircut.mat
+  artifactKey: Guid(04c00c51579daed4d96eadb4837d47f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/haircut.mat using Guid(04c00c51579daed4d96eadb4837d47f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7a97dab36a1ec9ef745c3a775b2be22') in 0.0210866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarBody.mat
+  artifactKey: Guid(85c1a87bbe8d7704bb32920db1456cb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarBody.mat using Guid(85c1a87bbe8d7704bb32920db1456cb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '586d59766984c2ecb6f7d1a94766e11f') in 0.0188151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarTeeth_Color_1K.jpeg
+  artifactKey: Guid(f587c52076370bf449f747045c9e035f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarTeeth_Color_1K.jpeg using Guid(f587c52076370bf449f747045c9e035f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '927dcb0233d6f6ea27bbf9360f76100d') in 0.0168882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarHeadFemale_Color_1Ka_upscayl_2x_ultr.png
+  artifactKey: Guid(a42a12f01cf45c941bfa878ae5d6d4bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarHeadFemale_Color_1Ka_upscayl_2x_ultr.png using Guid(a42a12f01cf45c941bfa878ae5d6d4bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e46ec823ebc91a2216ee4a6653232455') in 0.0246439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarLeftCornea.mat
+  artifactKey: Guid(e401d6d00aaea964fb68c7fc86437c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarLeftCornea.mat using Guid(e401d6d00aaea964fb68c7fc86437c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5245ceeefcd21ff968cd2d3fc0ca291a') in 0.0186115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarLeftCornea_Color_512.jpeg
+  artifactKey: Guid(01cf013f23ae3a9418c32640b2634980) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarLeftCornea_Color_512.jpeg using Guid(01cf013f23ae3a9418c32640b2634980) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'badbd6f68a4bf1b4f9be56ca5a8e7f68') in 0.0188365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarBodyFemale_Color_1K.jpeg
+  artifactKey: Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarBodyFemale_Color_1K.jpeg using Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c61abfe84588ec3369e5b4111a530f59') in 0.0217329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/outfit.mat
+  artifactKey: Guid(f1893c190aabc8d4eb6ad7788117bbd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/outfit.mat using Guid(f1893c190aabc8d4eb6ad7788117bbd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e12988b42b8489bcc604ed00398a9c7') in 0.0193217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/AvatarHeadFemale_Normal1_1K.jpeg
+  artifactKey: Guid(604c2b1d13ca6a8469110f72e3d4504c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/AvatarHeadFemale_Normal1_1K.jpeg using Guid(604c2b1d13ca6a8469110f72e3d4504c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7390d7237c1d84342d0b4ad95c1592c4') in 0.0203761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/IndianWomanTest/textures/saree_Aramazd_Color_1Ka.png
+  artifactKey: Guid(2a97bb936f45d5c49a78560b968809de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/textures/saree_Aramazd_Color_1Ka.png using Guid(2a97bb936f45d5c49a78560b968809de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '647c21b1048dfe77b59a17ea625ff96d') in 0.0237448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.269140 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBodyFemale_Color_1K.jpeg
+  artifactKey: Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBodyFemale_Color_1K.jpeg using Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c1ff71fa0d0066377c04321bd37d1c8') in 0.0254122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.956046 seconds.
+  path: Assets/Materials/IndianWomanTest/AvatarBodyFemale_Color_1K.jpeg
+  artifactKey: Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/IndianWomanTest/AvatarBodyFemale_Color_1K.jpeg using Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1aeb1c9e0408b45e3605a181bed1a901') in 0.018867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.581 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 2449ms
+	BeginReloadAssembly (691ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (125ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (244ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (817ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (253ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (860ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (3.6 MB). Loaded Objects now: 7088.
+Memory consumption went from 167.2 MB to 163.6 MB.
+Total: 9.109500 ms (FindLiveObjects: 0.547600 ms CreateObjectMapping: 0.470200 ms MarkObjects: 6.330700 ms  DeleteObjects: 1.759800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1928.235664 seconds.
+  path: Assets/Scripts/NPC
+  artifactKey: Guid(1e2c09bbd48593445a45ce858a34bb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC using Guid(1e2c09bbd48593445a45ce858a34bb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2b181a1b5aaeaffb75ca390e7c273ed') in 0.0299778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6175 unused Assets / (3.9 MB). Loaded Objects now: 7089.
+Memory consumption went from 167.3 MB to 163.4 MB.
+Total: 8.019900 ms (FindLiveObjects: 0.493300 ms CreateObjectMapping: 0.416500 ms MarkObjects: 5.499300 ms  DeleteObjects: 1.610000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.563558 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad4e9ee196e8620ac494854ac66bff3') in 0.006805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081157 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a7ae556eef02adf38ad071116647811') in 0.0792228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.176 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 2063ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (742ms)
+		LoadAssemblies (677ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (892ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.0 MB). Loaded Objects now: 7092.
+Memory consumption went from 167.2 MB to 163.2 MB.
+Total: 8.102500 ms (FindLiveObjects: 0.865700 ms CreateObjectMapping: 0.470900 ms MarkObjects: 4.720500 ms  DeleteObjects: 2.044000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.722293 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0074528 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000646 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000815 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005737 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005782 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006965 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007227 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006452 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008157 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008014 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000757 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006779 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008125 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006623 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007864 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008025 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009241 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007739 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006332 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005912 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006485 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007102 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006133 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006296 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005468 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000536 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008008 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000881 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000631 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000791 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005475 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005205 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005738 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005643 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005313 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005747 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005571 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006716 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008562 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005297 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006512 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007391 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000682 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005915 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008108 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005377 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007188 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006865 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006672 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005819 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006776 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005445 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007495 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005587 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005649 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006769 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005302 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008037 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005949 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007057 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000585 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008805 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005677 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005834 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006321 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006218 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005967 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006566 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006091 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007432 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007662 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006458 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007174 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006362 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005376 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005778 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007026 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008169 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006551 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006565 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007642 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005586 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005311 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005646 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005707 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006842 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000748 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005451 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007916 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008032 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005822 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005668 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005607 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+  ERROR: Build asset version error: assets/scripts/npc/npcdialogue.cs in SourceAssetDB has modification time of '2026-01-20T15:51:06.9531614Z' while content on disk has modification time of '2026-01-20T15:51:26.4835802Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/NPC/NPCDialogue.cs
+  artifactKey: Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/NPCDialogue.cs using Guid(c4cdfade921ab6d4ea29a2c2c1a974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe5ea8b98fd3fcbc5210db5fb96f9b9') in 0.0008602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (396ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.0 MB). Loaded Objects now: 7095.
+Memory consumption went from 167.3 MB to 163.3 MB.
+Total: 6.875800 ms (FindLiveObjects: 0.527900 ms CreateObjectMapping: 0.438100 ms MarkObjects: 4.335400 ms  DeleteObjects: 1.573600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1439ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (557ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.0 MB). Loaded Objects now: 7098.
+Memory consumption went from 167.3 MB to 163.3 MB.
+Total: 8.788100 ms (FindLiveObjects: 0.562900 ms CreateObjectMapping: 0.607900 ms MarkObjects: 5.390900 ms  DeleteObjects: 2.225000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.1 MB). Loaded Objects now: 7101.
+Memory consumption went from 167.3 MB to 163.3 MB.
+Total: 8.119700 ms (FindLiveObjects: 0.557000 ms CreateObjectMapping: 0.479900 ms MarkObjects: 4.906100 ms  DeleteObjects: 2.175300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.3 MB). Loaded Objects now: 7104.
+Memory consumption went from 167.4 MB to 163.1 MB.
+Total: 10.096200 ms (FindLiveObjects: 0.537300 ms CreateObjectMapping: 0.607800 ms MarkObjects: 6.687600 ms  DeleteObjects: 2.262600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.748 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1509ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.8 MB). Loaded Objects now: 7107.
+Memory consumption went from 167.4 MB to 162.6 MB.
+Total: 10.339700 ms (FindLiveObjects: 0.577700 ms CreateObjectMapping: 0.555300 ms MarkObjects: 5.912700 ms  DeleteObjects: 3.292300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1387ms
 	BeginReloadAssembly (188ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (513ms)
-		LoadAssemblies (356ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (397ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (182ms)
-			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (807ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (666ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (592ms)
+		SetupLoadedEditorAssemblies (517ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (347ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6184 unused Assets / (4.5 MB). Loaded Objects now: 6983.
-Memory consumption went from 151.6 MB to 147.1 MB.
-Total: 11.471700 ms (FindLiveObjects: 1.148400 ms CreateObjectMapping: 0.646800 ms MarkObjects: 6.966200 ms  DeleteObjects: 2.708500 ms)
+Unloading 6181 unused Assets / (4.4 MB). Loaded Objects now: 7110.
+Memory consumption went from 167.5 MB to 163.0 MB.
+Total: 8.705700 ms (FindLiveObjects: 0.621400 ms CreateObjectMapping: 0.540700 ms MarkObjects: 5.286300 ms  DeleteObjects: 2.255800 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 9323.440227 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '489f71d4eb4a733b24c291742e46b88b') in 0.3147415 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 22
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6175 unused Assets / (4.3 MB). Loaded Objects now: 7110.
+Memory consumption went from 167.7 MB to 163.4 MB.
+Total: 23.863000 ms (FindLiveObjects: 0.547400 ms CreateObjectMapping: 0.483900 ms MarkObjects: 20.764500 ms  DeleteObjects: 2.065600 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.716 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1350ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.3 MB). Loaded Objects now: 7113.
+Memory consumption went from 167.5 MB to 163.2 MB.
+Total: 8.197900 ms (FindLiveObjects: 0.691100 ms CreateObjectMapping: 0.750800 ms MarkObjects: 4.813800 ms  DeleteObjects: 1.941100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (742ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (4.7 MB). Loaded Objects now: 7116.
+Memory consumption went from 167.6 MB to 162.9 MB.
+Total: 9.658000 ms (FindLiveObjects: 0.531900 ms CreateObjectMapping: 0.646800 ms MarkObjects: 5.863800 ms  DeleteObjects: 2.614200 ms)
+
+Prepare: number of updated asset objects reloaded= 0

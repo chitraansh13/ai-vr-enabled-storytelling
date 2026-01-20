@@ -1,9 +1,9 @@
-[Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh" at "2026-01-20T14:18:13.9931087Z"
 Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::Module] Trying to connect to existing licensing client channel...
 OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16011 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-20T14:18:13Z
+Date: 2026-01-20T14:28:25Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh" at "2026-01-20T14:28:25.2691354Z"
 
 COMMAND LINE ARGUMENTS:
 E:\Unity\Editor\6000.3.3f1\Editor\Unity.exe
@@ -13,11 +13,13 @@ E:\Unity\Editor\6000.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-E:/Unity/Unity Projects/StorytellingVR
+G:/Users/chitr/Desktop/Capstone/StorytellingVR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59667
+49835
+-licensingIpc
+LicenseClient-Chitraansh
 -job-worker-count
 9
 -background-job-worker-count
@@ -26,8 +28,8 @@ Logs/AssetImportWorker1.log
 1
 -name
 AssetImport
-Successfully changed project path to: E:/Unity/Unity Projects/StorytellingVR
-E:/Unity/Unity Projects/StorytellingVR
+Successfully changed project path to: G:/Users/chitr/Desktop/Capstone/StorytellingVR
+G:/Users/chitr/Desktop/Capstone/StorytellingVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -63,18 +65,18 @@ E:/Unity/Unity Projects/StorytellingVR
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [21492]  Target information:
+Player connection [2840]  Target information:
 
-Player connection [21492]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1915807482 [EditorId] 1915807482 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2840]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 858243962 [EditorId] 858243962 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21492]  * "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 1915807482 [EditorId] 1915807482 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2840]  * "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 858243962 [EditorId] 858243962 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21492]  * "[IP] 192.168.199.1 [Port] 0 [Flags] 2 [Guid] 1915807482 [EditorId] 1915807482 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2840]  * "[IP] 192.168.199.1 [Port] 0 [Flags] 2 [Guid] 858243962 [EditorId] 858243962 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21492]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1915807482 [EditorId] 1915807482 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2840]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 858243962 [EditorId] 858243962 [Version] 1048832 [Id] WindowsEditor(7,Chit-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21492] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21492] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2840] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,11 +88,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 153.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
 [Subsystems] Discovering subsystems at path E:/Unity/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity/Unity Projects/StorytellingVR/Assets
+[Subsystems] Discovering subsystems at path G:/Users/chitr/Desktop/Capstone/StorytellingVR/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -102,21 +104,19 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Editor/6000.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              ad45bb768e174221b34a20379211e877
+  Session Id:              ceb7644eaec84034be11d6af7ca72603
   Correlation Id:          d01085e739ee4233c8b37302d925872b
-  External correlation Id: 8489062912531677352
+  External correlation Id: 7998670575559764728
   Machine Id:              LNOBb4xyY36q7bW8iIilfPZ8vTY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Chitraansh" (connect: 0.00s, validation: 0.00s, handshake: 1.35s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh-notifications" at "2026-01-20T14:18:15.3464929Z"
-[Licensing::Module] Licensing Background thread has ended after 1.35s
-[Licensing::Module] Licensing is initialized (took 0.23s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Chitraansh" (connect: 0.00s, validation: 0.00s, handshake: 11.36s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Chitraansh-notifications" at "2026-01-20T14:28:36.6311856Z"
+[Licensing::Module] Licensing Background thread has ended after 11.36s
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 13469311752238-UnityPersXXXX
@@ -127,44 +127,44 @@ Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/Playbac
 Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.243228 seconds.
-- Loaded All Assemblies, in  0.776 seconds
+Registered in 1.280112 seconds.
+- Loaded All Assemblies, in 21.304 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 337 ms
+Android Extension - Scanning For ADB Devices 521 ms
 Native extension for WindowsStandalone target not found
 Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.856 seconds
-Domain Reload Profiling: 1632ms
-	BeginReloadAssembly (182ms)
+- Finished resetting the current domain, in  1.131 seconds
+Domain Reload Profiling: 22434ms
+	BeginReloadAssembly (15531ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (287ms)
-	LoadAllAssembliesAndSetupDomain (244ms)
-		LoadAssemblies (183ms)
+	RebuildCommonClasses (738ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (1317ms)
+	LoadAllAssembliesAndSetupDomain (3707ms)
+		LoadAssemblies (15556ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (222ms)
+		AnalyzeDomain (3678ms)
+			TypeCache.Refresh (3676ms)
+				TypeCache.ScanAssembly (3196ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (857ms)
+	FinalizeReload (1131ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (802ms)
+		SetupLoadedEditorAssemblies (1102ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (445ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (166ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			InitializePlatformSupportModulesInManaged (827ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -174,8 +174,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.008 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+- Loaded All Assemblies, in 12.738 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Failed to load: E:/Unity/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -186,68 +186,130 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.980 seconds
-Domain Reload Profiling: 1988ms
-	BeginReloadAssembly (217ms)
+- Finished resetting the current domain, in  1.436 seconds
+Domain Reload Profiling: 14168ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (690ms)
-		LoadAssemblies (436ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (12520ms)
+		LoadAssemblies (11700ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (312ms)
-				TypeCache.ScanAssembly (245ms)
-			BuildScriptInfoCaches (55ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (981ms)
+		AnalyzeDomain (897ms)
+			TypeCache.Refresh (844ms)
+				TypeCache.ScanAssembly (829ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1436ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (742ms)
+		SetupLoadedEditorAssemblies (513ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6184 unused Assets / (4.6 MB). Loaded Objects now: 6983.
-Memory consumption went from 146.0 MB to 141.4 MB.
-Total: 11.591300 ms (FindLiveObjects: 1.024600 ms CreateObjectMapping: 0.435500 ms MarkObjects: 7.382700 ms  DeleteObjects: 2.747100 ms)
+Unloading 6184 unused Assets / (3.8 MB). Loaded Objects now: 6983.
+Memory consumption went from 151.5 MB to 147.6 MB.
+Total: 7.500400 ms (FindLiveObjects: 0.576900 ms CreateObjectMapping: 0.476500 ms MarkObjects: 4.544100 ms  DeleteObjects: 1.902100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9323.440757 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09bd704820787a3ee5ec6e3dff18a36e') in 0.1034992 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+  Time since last request: 9969.614563 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(9ed7c94c9603a0245b6802acf2bad774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(9ed7c94c9603a0245b6802acf2bad774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d6606414f40168178d7168b041a6b29') in 0.0042553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Settings/PC_Renderer.asset
-  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7210927419712a512bf1ea0fe5152c67') in 0.0673849 seconds
+  Time since last request: 2135.325030 seconds.
+  path: Assets/Prefabs/NPCs/textures/AvatarEyes_Color_512.jpeg
+  artifactKey: Guid(8b00c5b3ad72db0419855a1a78c16219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/textures/AvatarEyes_Color_512.jpeg using Guid(8b00c5b3ad72db0419855a1a78c16219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '11a4451021de7e5c9dcd110c4febcefd') in 0.2010928 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f23f452e70eb6a1541728471c3eb6fd0') in 0.0508018 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/NPCs/textures/AvatarBodyFemale_Normal1_1K.jpeg
+  artifactKey: Guid(b2d223ce8f8c1414bad0d4ebc4662dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/textures/AvatarBodyFemale_Normal1_1K.jpeg using Guid(b2d223ce8f8c1414bad0d4ebc4662dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f36385bae3cedd7c8b6573a4654fc12b') in 0.0259971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/NPCs/textures/HairCard0_Normal_1K.jpeg
+  artifactKey: Guid(ba6d1f77ab9d8244f9b6e001b5602b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/textures/HairCard0_Normal_1K.jpeg using Guid(ba6d1f77ab9d8244f9b6e001b5602b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32a36eeb7a8720c10e061d49eb4e30bc') in 0.0250033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/NPCs/textures/HairCard0_Color_1K.png
+  artifactKey: Guid(ec1218c8ec9c8f64e9c30f0e643eb90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/textures/HairCard0_Color_1K.png using Guid(ec1218c8ec9c8f64e9c30f0e643eb90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04ea3426a083aa7ed15ae91430d6ad36') in 0.0235094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/NPCs/source/Catwalk Idle.fbx
+  artifactKey: Guid(f3123ffd2e29908409e2a1a59711b42d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/source/Catwalk Idle.fbx using Guid(f3123ffd2e29908409e2a1a59711b42d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '398eba2faa1f66c7e74f8053162a32d4') in 0.2578442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/NPCs/textures/saree_Aramazd_Color_1Ka.png
+  artifactKey: Guid(2a97bb936f45d5c49a78560b968809de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/textures/saree_Aramazd_Color_1Ka.png using Guid(2a97bb936f45d5c49a78560b968809de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df686de190f21c3c3623111ab578da57') in 0.0198854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.968714 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBodyFemale_Color_1K.jpeg
+  artifactKey: Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBodyFemale_Color_1K.jpeg using Guid(7d5b7a02ac11fb947afa4fc825d76e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87406baa4a62952e0b5fd31ec8d7411e') in 0.0198302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBodyFemale_Normal1_1K.jpeg
+  artifactKey: Guid(b2d223ce8f8c1414bad0d4ebc4662dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/AvatarBodyFemale_Normal1_1K.jpeg using Guid(b2d223ce8f8c1414bad0d4ebc4662dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '920c4e5b4b6d9dfe344514709630192e') in 0.0240847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/NPCs/IndianWomanTest/textures/HairCard0_Color_1K.png
+  artifactKey: Guid(ec1218c8ec9c8f64e9c30f0e643eb90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/NPCs/IndianWomanTest/textures/HairCard0_Color_1K.png using Guid(ec1218c8ec9c8f64e9c30f0e643eb90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '748b18f61d67ae1a1fbe6f30fa532937') in 0.0187569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
