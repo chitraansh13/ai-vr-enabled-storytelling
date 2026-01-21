@@ -56,6 +56,8 @@ public class NPCDialogue : MonoBehaviour
                 JsonUtility.FromJson<NPCResponse>(request.downloadHandler.text);
 
             dialogueText.text = "NPC: " + response.reply;
+            WindowsTTS.Speak(response.reply);
+
         }
         else
         {
