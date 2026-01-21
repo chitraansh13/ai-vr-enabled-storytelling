@@ -771,7 +771,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 722801296}
-  m_TextComponent: {fileID: 0}
+  m_TextComponent: {fileID: 1208705739}
   m_Placeholder: {fileID: 881921482}
   m_ContentType: 0
   m_InputType: 0
@@ -1536,6 +1536,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.99
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f3123ffd2e29908409e2a1a59711b42d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 60bba017a65f52148ae6b8c2bf791e8e, type: 2}
     - target: {fileID: 6937541551142690876, guid: f3123ffd2e29908409e2a1a59711b42d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
