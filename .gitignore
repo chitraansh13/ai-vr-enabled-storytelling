@@ -6,6 +6,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+.vs/
 UserSettings/
 
 # IDE / Project files
@@ -30,3 +31,4 @@ env/
 # ---------- OS ----------
 .DS_Store
 Thumbs.db
+

@@ -1162,6 +1162,18 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &948496655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948496647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e3f98d2e98003459ac4c5235c7ee49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GestureTest
 --- !u!1 &1208705738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,6 +1569,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3123ffd2e29908409e2a1a59711b42d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 948496652}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3123ffd2e29908409e2a1a59711b42d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 948496655}
   m_SourcePrefab: {fileID: 100100000, guid: f3123ffd2e29908409e2a1a59711b42d, type: 3}
 --- !u!1 &1964851297
 GameObject:
