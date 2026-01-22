@@ -13,6 +13,7 @@ public static class WindowsTTS
         string command =
             "Add-Type -AssemblyName System.Speech;" +
             "$speak = New-Object System.Speech.Synthesis.SpeechSynthesizer;" +
+            "$speak.SelectVoiceByHints([System.Speech.Synthesis.VoiceGender]::Female);" +
             "$speak.Rate = -1;" +
             "$speak.Volume = 100;" +
             "$speak.Speak('" + text + "');";
