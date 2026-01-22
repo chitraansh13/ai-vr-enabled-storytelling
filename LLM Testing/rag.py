@@ -1,9 +1,13 @@
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
+import os
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
 
 # Load embedding model
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+embedding_model = SentenceTransformer("../models/all-MiniLM-L6-v2")
+
 
 # Load knowledge documents
 with open("trader_sample.txt", "r", encoding="utf-8") as f:

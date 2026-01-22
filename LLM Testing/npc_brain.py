@@ -3,6 +3,8 @@ from rag import retrieve
 from behavior import get_state
 from prompt import build_prompt
 from memory import ConversationMemory
+import os
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
 memory = ConversationMemory()
 
