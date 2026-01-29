@@ -19,7 +19,8 @@ def load_knowledge(path):
     return chunks, index
 
 
-def npc_reply(user_input, knowledge_chunks, index, memory, npc_role):
+def npc_reply(user_input, knowledge_chunks, index, memory, npc_role, market_context):
+
     query_emb = embedder.encode([user_input])
     _, idx = index.search(query_emb, 3)
 
@@ -27,29 +28,31 @@ def npc_reply(user_input, knowledge_chunks, index, memory, npc_role):
     memory_text = "\n".join(memory[-4:])
 
     prompt = f"""
-                    You are a non-fictional NPC in the Vijayanagara Empire (circa 1500 CE).
+                You are a non-fictional NPC in the Vijayanagara Empire (circa 1500 CE).
 
-                    STRICT RULES:
-                    - This is NOT a fantasy world.
-                    - There are NO potions, elixirs, magic, or gold coins.
-                    - Trade involves spices, silk, gems, horses, food, cloth, taxes, and coins of the era.
-                    - Speak realistically like a historical trader or guard.
-                    - Do NOT invent items that are not mentioned in the knowledge.
-                    - Do NOT change roles.
+                STRICT RULES:
+                - No fantasy, no magic, no potions.
+                - Trade only spices, silk, gems, horses, cloth.
+                - Currency and prices must be realistic.
+                - Stay strictly in your role.
 
-                    ROLE:
-                    You are {npc_role}. The player is a SELLER.
+                ROLE:
+                You are {npc_role}. The player is a SELLER.
 
-                    NPC KNOWLEDGE (use only this):
-                    {context}
+                SHARED MARKET EVENTS (what you know happened nearby):
+                {market_context}
 
-                    RECENT MEMORY:
-                    {memory_text}
+                YOUR KNOWLEDGE:
+                {context}
 
-                    Seller says: {user_input}
+                YOUR RECENT MEMORY:
+                {memory_text}
 
-                    NPC reply (stay realistic and grounded):
-                    """
+                Seller says: {user_input}
+
+                NPC reply:
+                """
+
 
     response = ollama.chat(
         model="llama3.1:8b",
